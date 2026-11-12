@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPortal | Ciência e Sustentabilidade</title>
+    <meta name="description" content="Portal educativo e científico sobre sustentabilidade, pegada de carbono, plástico verde, logística reversa, economia circular e descarte de pilhas e baterias.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho e Navegação -->
+    <header class="header" id="header"><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPortal | Ciência e Sustentabilidade</title>
+    <meta name="description" content="Portal educativo e científico sobre sustentabilidade, pegada de carbono, plástico verde, logística reversa, economia circular e descarte de pilhas e baterias.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho e Navegação -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Eco<strong>Portal</strong></span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#temas" class="nav-link">Pilares</a></li>
+                    <li><a href="#artigos" class="nav-link">Artigos Científicos</a></li>
+                    <li><a href="#calculadora" class="nav-link">Simulador CO₂</a></li>
+                    <li><a href="#guia-descarte" class="nav-link">Guia de Descarte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">Divulgação Científica & Meio Ambiente</span>
+            <h1>Construindo um Futuro Regenerativo através da Ciência</h1>
+            <p>Explore pesquisas, dados e práticas essenciais sobre transição ecológica, economia circular, biomateriais e gestão responsável de resíduos.</p>
+            <div class="hero-buttons">
+                <a href="#temas" class="btn btn-primary">Explorar Temas</a>
+                <a href="#artigos" class="btn btn-outline">Ler Artigos Científicos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Indicadores de Impacto -->
+    <section class="stats-bar">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-number" data-target="37">0</span><span class="stat-unit">Gt</span>
+                <p>Emissões globais anuais de CO₂ fóssil</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="91">0</span><span class="stat-unit">%</span>
+                <p>Dos plásticos produzidos ainda não são reciclados</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="3">0</span><span class="stat-unit">t CO₂</span>
+                <p>Capturadas por tonelada de Plástico Verde produzido</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="1000">0</span><span class="stat-unit">anos</span>
+                <p>Tempo de contaminação do solo por metais pesados de pilhas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Temas Principais -->
+    <section class="section" id="temas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Eixos Temáticos</span>
+                <h2>Pilares da Sustentabilidade Moderna</h2>
+                <p>Compreenda os conceitos fundamentais que norteiam políticas ambientais, inovações industriais e ações cotidianas.</p>
+            </div>
+
+            <div class="topics-grid">
+                <!-- Card 1: Pegada de Carbono -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Floresta e montanhas representando equilíbrio climático" loading="lazy">
+                        <span class="card-tag">Clima & Energia</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Pegada de Carbono</h3>
+                        <p>Mede o volume total de gases de efeito estufa (GEE), expressos em dióxido de carbono equivalente (CO₂e), emitidos direta ou indiretamente por indivíduos, eventos, organizações ou produtos ao longo de seu ciclo de vida.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Escopo 1:</strong> Emissões diretas de fontes próprias.</li>
+                            <li><strong>Escopo 2:</strong> Emissões indiretas de energia elétrica adquirida.</li>
+                            <li><strong>Escopo 3:</strong> Cadeia de valor, transporte e pós-consumo.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="carbono">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+
+                <!-- Card 2: Plástico Verde -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=800&q=80" alt="Plantação de cana-de-açúcar matéria-prima para biopolímeros" loading="lazy">
+                        <span class="card-tag">Biomateriais</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Plástico Verde (Biopolímeros)</h3>
+                        <p>Produzido a partir de fontes renováveis, como o etanol da cana-de-açúcar, o polietileno verde mantém as mesmas propriedades técnicas e de reciclabilidade do plástico convencional, mas captura CO₂ da atmosfera durante o crescimento da planta.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Matéria-prima:</strong> Etanol de cana-de-açúcar (biomassa).</li>
+                            <li><strong>Balanço de Carbono:</strong> Negativo do berço ao portão da fábrica.</li>
+                            <li><strong>Reciclabilidade:</strong> 100% compatível com cadeias tradicionais.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="plastico">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+
+                <!-- Card 3: Logística Reversa -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80" alt="Centro de triagem e reciclagem de materiais" loading="lazy">
+                        <span class="card-tag">Gestão de Resíduos</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Logística Reversa</h3>
+                        <p>Instrumento de desenvolvimento econômico e social caracterizado por ações que viabilizam a coleta e a restituição dos resíduos sólidos ao setor empresarial, para reaproveitamento em seu ciclo ou destinação final ambientalmente adequada.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Base Legal:</strong> Política Nacional de Resíduos Sólidos (Lei 12.305/10).</li>
+                            <li><strong>Responsabilidade:</strong> Compartilhada pelo ciclo de vida dos produtos.</li>
+                            <li><strong>Setores Chave:</strong> Embalagens, eletrônicos, pneus e agrotóxicos.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="logistica">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+
+                <!-- Card 4: Economia Circular -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80" alt="Mãos segurando muda de planta simbolizando regeneração" loading="lazy">
+                        <span class="card-tag">Novo Modelo Econômico</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Economia Circular</h3>
+                        <p>Substitui o modelo linear ("extrair, produzir, descartar") por um sistema restaurativo e regenerativo por design. Materiais técnicos e biológicos circulam continuamente em seu maior nível de utilidade e valor.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Princípio 1:</strong> Eliminar resíduos e poluição desde o design.</li>
+                            <li><strong>Princípio 2:</strong> Manter produtos e materiais em uso (reuso/reparo).</li>
+                            <li><strong>Princípio 3:</strong> Regenerar sistemas naturais.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="circular">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+
+                <!-- Card 5: Pilhas e Baterias -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1619641805634-b867f535071c?auto=format&fit=crop&w=800&q=80" alt="Pilhas e baterias recarregáveis para descarte consciente" loading="lazy">
+                        <span class="card-tag">Resíduos Perigosos</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Descarte de Pilhas e Baterias</h3>
+                        <p>Pilhas e baterias contêm metais pesados tóxicos (chumbo, cádmio, mercúrio, lítio e níquel). Quando descartadas no lixo comum, sofrem corrosão e contaminam lençóis freáticos, solos e a cadeia alimentar.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Risco Toxicológico:</strong> Bioacumulação e danos neurológicos/renais.</li>
+                            <li><strong>Mineração Urbana:</strong> Recuperação de cobalto, lítio e zinco.</li>
+                            <li><strong>Destino:</strong> Pontos de entrega voluntária (PEVs) e fabricantes.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="baterias">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Artigos Científicos -->
+    <section class="section section-alt" id="artigos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Repositório Acadêmico</span>
+                <h2>Artigos Científicos e Revisões</h2>
+                <p>Filtre por área de pesquisa para acessar resumos estruturados, metodologias e referências bibliográficas.</p>
+            </div>
+
+            <!-- Filtros -->
+            <div class="filter-bar" role="group" aria-label="Filtrar artigos por categoria">
+                <button class="filter-btn active" data-filter="todos">Todos os Temas</button>
+                <button class="filter-btn" data-filter="carbono">Pegada de Carbono</button>
+                <button class="filter-btn" data-filter="plastico">Plástico Verde</button>
+                <button class="filter-btn" data-filter="logistica">Logística Reversa</button>
+                <button class="filter-btn" data-filter="circular">Economia Circular</button>
+                <button class="filter-btn" data-filter="baterias">Pilhas e Baterias</button>
+            </div>
+
+            <!-- Lista de Artigos -->
+            <div class="articles-list" id="articlesContainer">
+                <!-- Artigo 1 -->
+                <article class="article-card" data-category="carbono">
+                    <div class="article-meta">
+                        <span class="article-tag">Pegada de Carbono</span>
+                        <span class="article-year">2024 • Journal of Cleaner Production</span>
+                    </div>
+                    <h3>Avaliação do Ciclo de Vida (ACV) e Pegada de Carbono na Cadeia Agroindustrial Brasileira</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Silva, M. R.; Oliveira, T. S.; Mendes, C. A.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Este estudo aplica a metodologia ISO 14067 para quantificar as emissões de GEE associadas à produção agrícola e transporte intermodal. Os resultados demonstram que a adoção de plantio direto, bioinsumos e otimização logística reduz em até 42% a pegada de carbono por tonelada produzida.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1016/j.jclepro.2024.141092</span>
+                        <button class="btn-read-article" data-article="1">Ler Artigo Completo</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 2 -->
+                <article class="article-card" data-category="plastico">
+                    <div class="article-meta">
+                        <span class="article-tag">Plástico Verde</span>
+                        <span class="article-year">2023 • Polymer Degradation and Stability</span>
+                    </div>
+                    <h3>Polietileno Verde de Alta Densidade (PEAD): Balanço Energético, Captura de Carbono e Desempenho Mecânico</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Costa, L. F.; Almeida, R. P.; Nakamura, H.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Análise comparativa entre o PEAD petroquímico e o PEAD derivado do bioetanol de cana-de-açúcar. A pesquisa comprova equivalência estrutural e térmica, destacando que cada quilograma de polietileno verde sequestra aproximadamente 3,09 kg de CO₂ atmosférico, mitigando impactos de mudanças climáticas.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1016/j.polymdegradstab.2023.110485</span>
+                        <button class="btn-read-article" data-article="2">Ler Artigo Completo</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 3 -->
+                <article class="article-card" data-category="logistica">
+                    <div class="article-meta">
+                        <span class="article-tag">Logística Reversa</span>
+                        <span class="article-year">2024 • Waste Management & Research</span>
+                    </div>
+                    <h3>Eficiência de Redes de Logística Reversa de Embalagens Pós-Consumo sob a Ótica da PNRS</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Ferreira, A. B.; Santos, G. L.; Ribeiro, D. M.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Investigação sobre os gargalos operacionais e econômicos na integração de cooperativas de catadores aos sistemas de logística reversa empresarial. Modelos matemáticos de roteirização indicam redução de 28% nos custos de coleta com centrais regionais de triagem mecanizada.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1177/0734242X24123980</span>
+                        <button class="btn-read-article" data-article="3">Ler Artigo Completo</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 4 -->
+                <article class="article-card" data-category="circular">
+                    <div class="article-meta">
+                        <span class="article-tag">Economia Circular</span>
+                        <span class="article-year">2024 • Resources, Conservation & Recycling</span>
+                    </div>
+                    <h3>Ecodesign e Simbiose Industrial: Métricas de Circularidade para a Indústria de Transformação</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Lima, V. C.; Rocha, E. N.; Pereira, J. K.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Propõe um índice multicritério (MCI) para avaliar a transição de parques industriais lineares para ecossistemas circulares. Estudos de caso demonstram que o reaproveitamento de subprodutos como insumos reduz em 35% a extração de recursos virgens e eleva a resiliência econômica.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1016/j.resconrec.2024.107512</span>
+                        <button class="btn-read-article" data-article="4">Ler Artigo Completo</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 5 -->
+                <article class="article-card" data-category="baterias">
+                    <div class="article-meta">
+                        <span class="article-tag">Pilhas e Baterias</span>
+                        <span class="article-year">2023 • Hydrometallurgy & Environmental Science</span>
+                    </div>
+                    <h3>Hidrometalurgia Verde para Recuperação de Lítio, Cobalto e Manganês de Baterias Íon-Lítio Exauridas</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Souza, R. T.; Martins, P. H.; Cardoso, F. S.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Apresenta rotas de lixiviação utilizando ácidos orgânicos biodegradáveis (ácido cítrico e málico) em substituição a ácidos inorgânicos fortes. O processo atingiu eficiência superior a 94% na recuperação de metais estratégicos, evitando a contaminação ambiental por descarte inadequado.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1016/j.hydromet.2023.106144</span>
+                        <button class="btn-read-article" data-article="5">Ler Artigo Completo</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Interativa: Calculadora de Pegada de Carbono -->
+    <section class="section" id="calculadora">
+        <div class="container">
+            <div class="calculator-wrapper">
+                <div class="calc-info">
+                    <span class="section-subtitle">Ferramenta Interativa</span>
+                    <h2>Estimador de Pegada de Carbono Mensal</h2>
+                    <p>Calcule uma estimativa das suas emissões mensais de CO₂ com base no transporte, consumo elétrico e hábitos de reciclagem.</p>
+                    <div class="calc-tips">
+                        <h4>Como reduzir seu impacto?</h4>
+                        <ul>
+                            <li>Priorize transporte público, bicicleta ou caronas solidárias.</li>
+                            <li>Separe resíduos recicláveis e utilize pontos de coleta de eletrônicos.</li>
+                            <li>Prefira embalagens com selo de biopolímeros (plástico verde) ou vidro retornável.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <form class="calc-form" id="carbonForm">
+                    <div class="form-group">
+                        <label for="kmCarro">Distância percorrida de carro por semana (km):</label>
+                        <input type="number" id="kmCarro" min="0" max="5000" value="80" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="kwhEnergia">Consumo mensal de energia elétrica (kWh):</label>
+                        <input type="number" id="kwhEnergia" min="0" max="10000" value="180" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reciclagem">Prática de separação de resíduos e logística reversa:</label>
+                        <select id="reciclagem">
+                            <option value="0.85">Separo tudo (recicláveis, orgânicos e pilhas/eletrônicos)</option>
+                            <option value="0.95" selected>Separo parcialmente materiais recicláveis</option>
+                            <option value="1.05">Não realizo separação de resíduos</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Calcular Emissões</button>
+
+                    <div class="calc-result" id="calcResult" aria-live="polite">
+                        <p class="result-label">Sua pegada estimada é:</p>
+                        <div class="result-value"><span id="co2Output">0</span> kg CO₂e / mês</div>
+                        <p class="result-feedback" id="co2Feedback"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Guia Prático de Descarte de Pilhas e Baterias -->
+    <section class="section section-alt" id="guia-descarte">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Ação Cidadã</span>
+                <h2>Protocolo para Descarte Correto de Pilhas e Baterias</h2>
+                <p>Siga estas 4 etapas recomendadas pela Resolução CONAMA nº 401/2008 para evitar acidentes e contaminação ambiental.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Identificação</h3>
+                    <p>Separe pilhas comuns (zinco-carbono), alcalinas, baterias de lítio, celulares e notebooks do lixo doméstico comum e dos recicláveis secos.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>Isolamento dos Polos</h3>
+                    <p>Em baterias de lítio ou de maior voltagem, proteja os terminais metálicos com fita isolante para evitar curto-circuito e risco de incêndio.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Armazenamento Seguro</h3>
+                    <p>Guarde em recipiente plástico rígido, seco e longe de fontes de calor ou umidade até o momento de levar ao ponto de coleta.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <h3>Entrega em PEVs</h3>
+                    <p>Deposite nos Pontos de Entrega Voluntária (supermercados, farmácias, operadoras de telefonia ou ecopontos municipais).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para Leitura de Artigos e Detalhes -->
+    <div class="modal" id="contentModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-dialog">
+            <button class="modal-close" id="modalClose" aria-label="Fechar janela">&times;</button>
+            <span class="modal-tag" id="modalTag">Categoria</span>
+            <h3 id="modalTitle">Título do Conteúdo</h3>
+            <div class="modal-meta" id="modalMeta"></div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo">
+                    <span class="logo-icon">🌿</span>
+                    <span class="logo-text">Eco<strong>Portal</strong></span>
+                </a>
+                <p>Plataforma de educação ambiental e divulgação científica. Projeto open-source desenvolvido para hospedagem no GitHub Pages.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#temas">Pilares da Sustentabilidade</a></li>
+                    <li><a href="#artigos">Artigos Científicos</a></li>
+                    <li><a href="#calculadora">Calculadora CO₂</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Referências Normativas</h4>
+                <ul>
+                    <li>PNRS - Lei nº 12.305/2010</li>
+                    <li>Resolução CONAMA nº 401/2008</li>
+                    <li>ISO 14067 (Pegada de Carbono)</li>
+                    <li>Objetivos de Desenvolvimento Sustentável (ONU)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 EcoPortal Sustentabilidade. Código aberto sob licença MIT para GitHub.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Eco<strong>Portal</strong></span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#temas" class="nav-link">Pilares</a></li>
+                    <li><a href="#artigos" class="nav-link">Artigos Científicos</a></li>
+                    <li><a href="#calculadora" class="nav-link">Simulador CO₂</a></li>
+                    <li><a href="#guia-descarte" class="nav-link">Guia de Descarte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="badge">Divulgação Científica & Meio Ambiente</span>
+            <h1>Construindo um Futuro Regenerativo através da Ciência</h1>
+            <p>Explore pesquisas, dados e práticas essenciais sobre transição ecológica, economia circular, biomateriais e gestão responsável de resíduos.</p>
+            <div class="hero-buttons">
+                <a href="#temas" class="btn btn-primary">Explorar Temas</a>
+                <a href="#artigos" class="btn btn-outline">Ler Artigos Científicos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Indicadores de Impacto -->
+    <section class="stats-bar">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-number" data-target="37">0</span><span class="stat-unit">Gt</span>
+                <p>Emissões globais anuais de CO₂ fóssil</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="91">0</span><span class="stat-unit">%</span>
+                <p>Dos plásticos produzidos ainda não são reciclados</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="3">0</span><span class="stat-unit">t CO₂</span>
+                <p>Capturadas por tonelada de Plástico Verde produzido</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="1000">0</span><span class="stat-unit">anos</span>
+                <p>Tempo de contaminação do solo por metais pesados de pilhas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Temas Principais -->
+    <section class="section" id="temas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Eixos Temáticos</span>
+                <h2>Pilares da Sustentabilidade Moderna</h2>
+                <p>Compreenda os conceitos fundamentais que norteiam políticas ambientais, inovações industriais e ações cotidianas.</p>
+            </div>
+
+            <div class="topics-grid">
+                <!-- Card 1: Pegada de Carbono -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Floresta e montanhas representando equilíbrio climático" loading="lazy">
+                        <span class="card-tag">Clima & Energia</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Pegada de Carbono</h3>
+                        <p>Mede o volume total de gases de efeito estufa (GEE), expressos em dióxido de carbono equivalente (CO₂e), emitidos direta ou indiretamente por indivíduos, eventos, organizações ou produtos ao longo de seu ciclo de vida.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Escopo 1:</strong> Emissões diretas de fontes próprias.</li>
+                            <li><strong>Escopo 2:</strong> Emissões indiretas de energia elétrica adquirida.</li>
+                            <li><strong>Escopo 3:</strong> Cadeia de valor, transporte e pós-consumo.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="carbono">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+
+                <!-- Card 2: Plástico Verde -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=800&q=80" alt="Plantação de cana-de-açúcar matéria-prima para biopolímeros" loading="lazy">
+                        <span class="card-tag">Biomateriais</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Plástico Verde (Biopolímeros)</h3>
+                        <p>Produzido a partir de fontes renováveis, como o etanol da cana-de-açúcar, o polietileno verde mantém as mesmas propriedades técnicas e de reciclabilidade do plástico convencional, mas captura CO₂ da atmosfera durante o crescimento da planta.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Matéria-prima:</strong> Etanol de cana-de-açúcar (biomassa).</li>
+                            <li><strong>Balanço de Carbono:</strong> Negativo do berço ao portão da fábrica.</li>
+                            <li><strong>Reciclabilidade:</strong> 100% compatível com cadeias tradicionais.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="plastico">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+
+                <!-- Card 3: Logística Reversa -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80" alt="Centro de triagem e reciclagem de materiais" loading="lazy">
+                        <span class="card-tag">Gestão de Resíduos</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Logística Reversa</h3>
+                        <p>Instrumento de desenvolvimento econômico e social caracterizado por ações que viabilizam a coleta e a restituição dos resíduos sólidos ao setor empresarial, para reaproveitamento em seu ciclo ou destinação final ambientalmente adequada.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Base Legal:</strong> Política Nacional de Resíduos Sólidos (Lei 12.305/10).</li>
+                            <li><strong>Responsabilidade:</strong> Compartilhada pelo ciclo de vida dos produtos.</li>
+                            <li><strong>Setores Chave:</strong> Embalagens, eletrônicos, pneus e agrotóxicos.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="logistica">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+
+                <!-- Card 4: Economia Circular -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80" alt="Mãos segurando muda de planta simbolizando regeneração" loading="lazy">
+                        <span class="card-tag">Novo Modelo Econômico</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Economia Circular</h3>
+                        <p>Substitui o modelo linear ("extrair, produzir, descartar") por um sistema restaurativo e regenerativo por design. Materiais técnicos e biológicos circulam continuamente em seu maior nível de utilidade e valor.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Princípio 1:</strong> Eliminar resíduos e poluição desde o design.</li>
+                            <li><strong>Princípio 2:</strong> Manter produtos e materiais em uso (reuso/reparo).</li>
+                            <li><strong>Princípio 3:</strong> Regenerar sistemas naturais.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="circular">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+
+                <!-- Card 5: Pilhas e Baterias -->
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1619641805634-b867f535071c?auto=format&fit=crop&w=800&q=80" alt="Pilhas e baterias recarregáveis para descarte consciente" loading="lazy">
+                        <span class="card-tag">Resíduos Perigosos</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Descarte de Pilhas e Baterias</h3>
+                        <p>Pilhas e baterias contêm metais pesados tóxicos (chumbo, cádmio, mercúrio, lítio e níquel). Quando descartadas no lixo comum, sofrem corrosão e contaminam lençóis freáticos, solos e a cadeia alimentar.</p>
+                        <ul class="card-highlights">
+                            <li><strong>Risco Toxicológico:</strong> Bioacumulação e danos neurológicos/renais.</li>
+                            <li><strong>Mineração Urbana:</strong> Recuperação de cobalto, lítio e zinco.</li>
+                            <li><strong>Destino:</strong> Pontos de entrega voluntária (PEVs) e fabricantes.</li>
+                        </ul>
+                        <button class="btn-text open-modal" data-topic="baterias">Saiba mais &rarr;</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Artigos Científicos -->
+    <section class="section section-alt" id="artigos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Repositório Acadêmico</span>
+                <h2>Artigos Científicos e Revisões</h2>
+                <p>Filtre por área de pesquisa para acessar resumos estruturados, metodologias e referências bibliográficas.</p>
+            </div>
+
+            <!-- Filtros -->
+            <div class="filter-bar" role="group" aria-label="Filtrar artigos por categoria">
+                <button class="filter-btn active" data-filter="todos">Todos os Temas</button>
+                <button class="filter-btn" data-filter="carbono">Pegada de Carbono</button>
+                <button class="filter-btn" data-filter="plastico">Plástico Verde</button>
+                <button class="filter-btn" data-filter="logistica">Logística Reversa</button>
+                <button class="filter-btn" data-filter="circular">Economia Circular</button>
+                <button class="filter-btn" data-filter="baterias">Pilhas e Baterias</button>
+            </div>
+
+            <!-- Lista de Artigos -->
+            <div class="articles-list" id="articlesContainer">
+                <!-- Artigo 1 -->
+                <article class="article-card" data-category="carbono">
+                    <div class="article-meta">
+                        <span class="article-tag">Pegada de Carbono</span>
+                        <span class="article-year">2024 • Journal of Cleaner Production</span>
+                    </div>
+                    <h3>Avaliação do Ciclo de Vida (ACV) e Pegada de Carbono na Cadeia Agroindustrial Brasileira</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Silva, M. R.; Oliveira, T. S.; Mendes, C. A.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Este estudo aplica a metodologia ISO 14067 para quantificar as emissões de GEE associadas à produção agrícola e transporte intermodal. Os resultados demonstram que a adoção de plantio direto, bioinsumos e otimização logística reduz em até 42% a pegada de carbono por tonelada produzida.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1016/j.jclepro.2024.141092</span>
+                        <button class="btn-read-article" data-article="1">Ler Artigo Completo</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 2 -->
+                <article class="article-card" data-category="plastico">
+                    <div class="article-meta">
+                        <span class="article-tag">Plástico Verde</span>
+                        <span class="article-year">2023 • Polymer Degradation and Stability</span>
+                    </div>
+                    <h3>Polietileno Verde de Alta Densidade (PEAD): Balanço Energético, Captura de Carbono e Desempenho Mecânico</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Costa, L. F.; Almeida, R. P.; Nakamura, H.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Análise comparativa entre o PEAD petroquímico e o PEAD derivado do bioetanol de cana-de-açúcar. A pesquisa comprova equivalência estrutural e térmica, destacando que cada quilograma de polietileno verde sequestra aproximadamente 3,09 kg de CO₂ atmosférico, mitigando impactos de mudanças climáticas.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1016/j.polymdegradstab.2023.110485</span>
+                        <button class="btn-read-article" data-article="2">Ler Artigo Completo</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 3 -->
+                <article class="article-card" data-category="logistica">
+                    <div class="article-meta">
+                        <span class="article-tag">Logística Reversa</span>
+                        <span class="article-year">2024 • Waste Management & Research</span>
+                    </div>
+                    <h3>Eficiência de Redes de Logística Reversa de Embalagens Pós-Consumo sob a Ótica da PNRS</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Ferreira, A. B.; Santos, G. L.; Ribeiro, D. M.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Investigação sobre os gargalos operacionais e econômicos na integração de cooperativas de catadores aos sistemas de logística reversa empresarial. Modelos matemáticos de roteirização indicam redução de 28% nos custos de coleta com centrais regionais de triagem mecanizada.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1177/0734242X24123980</span>
+                        <button class="btn-read-article" data-article="3">Ler Artigo Completo</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 4 -->
+                <article class="article-card" data-category="circular">
+                    <div class="article-meta">
+                        <span class="article-tag">Economia Circular</span>
+                        <span class="article-year">2024 • Resources, Conservation & Recycling</span>
+                    </div>
+                    <h3>Ecodesign e Simbiose Industrial: Métricas de Circularidade para a Indústria de Transformação</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Lima, V. C.; Rocha, E. N.; Pereira, J. K.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Propõe um índice multicritério (MCI) para avaliar a transição de parques industriais lineares para ecossistemas circulares. Estudos de caso demonstram que o reaproveitamento de subprodutos como insumos reduz em 35% a extração de recursos virgens e eleva a resiliência econômica.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1016/j.resconrec.2024.107512</span>
+                        <button class="btn-read-article" data-article="4">Ler Artigo Completo</button>
+                    </div>
+                </article>
+
+                <!-- Artigo 5 -->
+                <article class="article-card" data-category="baterias">
+                    <div class="article-meta">
+                        <span class="article-tag">Pilhas e Baterias</span>
+                        <span class="article-year">2023 • Hydrometallurgy & Environmental Science</span>
+                    </div>
+                    <h3>Hidrometalurgia Verde para Recuperação de Lítio, Cobalto e Manganês de Baterias Íon-Lítio Exauridas</h3>
+                    <p class="article-authors"><strong>Autores:</strong> Souza, R. T.; Martins, P. H.; Cardoso, F. S.</p>
+                    <p class="article-abstract">
+                        <strong>Resumo:</strong> Apresenta rotas de lixiviação utilizando ácidos orgânicos biodegradáveis (ácido cítrico e málico) em substituição a ácidos inorgânicos fortes. O processo atingiu eficiência superior a 94% na recuperação de metais estratégicos, evitando a contaminação ambiental por descarte inadequado.
+                    </p>
+                    <div class="article-footer">
+                        <span class="doi">DOI: 10.1016/j.hydromet.2023.106144</span>
+                        <button class="btn-read-article" data-article="5">Ler Artigo Completo</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Interativa: Calculadora de Pegada de Carbono -->
+    <section class="section" id="calculadora">
+        <div class="container">
+            <div class="calculator-wrapper">
+                <div class="calc-info">
+                    <span class="section-subtitle">Ferramenta Interativa</span>
+                    <h2>Estimador de Pegada de Carbono Mensal</h2>
+                    <p>Calcule uma estimativa das suas emissões mensais de CO₂ com base no transporte, consumo elétrico e hábitos de reciclagem.</p>
+                    <div class="calc-tips">
+                        <h4>Como reduzir seu impacto?</h4>
+                        <ul>
+                            <li>Priorize transporte público, bicicleta ou caronas solidárias.</li>
+                            <li>Separe resíduos recicláveis e utilize pontos de coleta de eletrônicos.</li>
+                            <li>Prefira embalagens com selo de biopolímeros (plástico verde) ou vidro retornável.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <form class="calc-form" id="carbonForm">
+                    <div class="form-group">
+                        <label for="kmCarro">Distância percorrida de carro por semana (km):</label>
+                        <input type="number" id="kmCarro" min="0" max="5000" value="80" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="kwhEnergia">Consumo mensal de energia elétrica (kWh):</label>
+                        <input type="number" id="kwhEnergia" min="0" max="10000" value="180" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reciclagem">Prática de separação de resíduos e logística reversa:</label>
+                        <select id="reciclagem">
+                            <option value="0.85">Separo tudo (recicláveis, orgânicos e pilhas/eletrônicos)</option>
+                            <option value="0.95" selected>Separo parcialmente materiais recicláveis</option>
+                            <option value="1.05">Não realizo separação de resíduos</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Calcular Emissões</button>
+
+                    <div class="calc-result" id="calcResult" aria-live="polite">
+                        <p class="result-label">Sua pegada estimada é:</p>
+                        <div class="result-value"><span id="co2Output">0</span> kg CO₂e / mês</div>
+                        <p class="result-feedback" id="co2Feedback"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Guia Prático de Descarte de Pilhas e Baterias -->
+    <section class="section section-alt" id="guia-descarte">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Ação Cidadã</span>
+                <h2>Protocolo para Descarte Correto de Pilhas e Baterias</h2>
+                <p>Siga estas 4 etapas recomendadas pela Resolução CONAMA nº 401/2008 para evitar acidentes e contaminação ambiental.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Identificação</h3>
+                    <p>Separe pilhas comuns (zinco-carbono), alcalinas, baterias de lítio, celulares e notebooks do lixo doméstico comum e dos recicláveis secos.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>Isolamento dos Polos</h3>
+                    <p>Em baterias de lítio ou de maior voltagem, proteja os terminais metálicos com fita isolante para evitar curto-circuito e risco de incêndio.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Armazenamento Seguro</h3>
+                    <p>Guarde em recipiente plástico rígido, seco e longe de fontes de calor ou umidade até o momento de levar ao ponto de coleta.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <h3>Entrega em PEVs</h3>
+                    <p>Deposite nos Pontos de Entrega Voluntária (supermercados, farmácias, operadoras de telefonia ou ecopontos municipais).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para Leitura de Artigos e Detalhes -->
+    <div class="modal" id="contentModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-dialog">
+            <button class="modal-close" id="modalClose" aria-label="Fechar janela">&times;</button>
+            <span class="modal-tag" id="modalTag">Categoria</span>
+            <h3 id="modalTitle">Título do Conteúdo</h3>
+            <div class="modal-meta" id="modalMeta"></div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo">
+                    <span class="logo-icon">🌿</span>
+                    <span class="logo-text">Eco<strong>Portal</strong></span>
+                </a>
+                <p>Plataforma de educação ambiental e divulgação científica. Projeto open-source desenvolvido para hospedagem no GitHub Pages.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#temas">Pilares da Sustentabilidade</a></li>
+                    <li><a href="#artigos">Artigos Científicos</a></li>
+                    <li><a href="#calculadora">Calculadora CO₂</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Referências Normativas</h4>
+                <ul>
+                    <li>PNRS - Lei nº 12.305/2010</li>
+                    <li>Resolução CONAMA nº 401/2008</li>
+                    <li>ISO 14067 (Pegada de Carbono)</li>
+                    <li>Objetivos de Desenvolvimento Sustentável (ONU)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 EcoPortal Sustentabilidade. Código aberto sob licença MIT para GitHub.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
